@@ -2,6 +2,7 @@ import speech_recognition as sr
 r = sr.Recognizer()
 import database
 import sys
+import datetime
 
 def start():
     print("Welcome to Specto")
@@ -11,11 +12,15 @@ def start():
 ##    if status.startswith(l):
 ##        leave()
     while True:
+        currentDT = datetime.datetime.now()
+        currentDT = str(currentDT)
+        print(currentDT)
         with sr.Microphone() as source:                                                                       
             print("Speak now")                                                                                   
             audio = r.listen(source)   
         try:
             print("You said " + r.recognize_google(audio))
+            database.insert('speechToText.txt', currentDT, r.recognize_google(audio))
         except sr.UnknownValueError:
             print("Not understandable")
 
