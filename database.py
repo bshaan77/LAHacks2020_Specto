@@ -36,4 +36,3 @@ def update(filename, key, value):
     result.close()
     import os
     os.replace('result.txt', filename)
-
