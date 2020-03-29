@@ -1,3 +1,8 @@
 Ishaan Bansal Conversation
 2020-03-28 15:32:23.501440	hello hello testing testing
-2020-03-28 15:32:35.984492	grateful for you
+2020-03-28 15:32:35.984492	testing testing
+2020-03-28 23:53:20.641539	my name is i s h a a n
+2020-03-28 23:53:33.913027	as you can see I am speaking and this is picking up a transcript of the audio that is coming out of my mouth
+2020-03-28 23:53:55.589774	technology has a lot of employment implications
+2020-03-28 23:54:06.851200	as you can see people who have a hearing disability can now communicate using this audio to text feature
+2020-03-28 23:54:27.388393	difficulty hearing can now actually
