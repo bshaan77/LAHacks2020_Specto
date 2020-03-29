@@ -16,19 +16,23 @@ How it works
 Blind Protocol
 
 Install all the dependencies on Terminal
- Pip install playsound
+Pip install playsound
 Pip install SpeechRecognition
 Pip install gTTS
 Pip install pytesseract
 Pip install tensorflow-gpu
 Run the specto blind protocol code
+
 Google Vision API (Part of blind protocol)
+
 Install JSON file for Google Vision API
 Download
 Find Service key
 Using the service key enable Google vision API 
 import it in your code and use Detect multiple objects code
+
 Deaf Protocol
+
 Info can be found here https://pypi.org/project/SpeechRecognition/
 Install the following
 pip install SpeechRecognition
